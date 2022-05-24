@@ -18,14 +18,14 @@ const Layout = ({ children }) => {
                 {/* Required meta tags */}
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
- 
-                <title>Zixon - React Next.js Business Consulting Template</title>
+
+                <title>Kurumsal Site Teması</title>
             </Head>
 
             {children}
 
             {loader ? <Preloader /> : null}
- 
+
             <GoTop scrollStepInPx="100" delayInMs="10.50" />
         </>
     );
